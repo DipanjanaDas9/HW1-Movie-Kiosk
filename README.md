@@ -5,7 +5,7 @@ A self-service movie ticket booking application that allows customers to browse 
 **Primary Actor:** Customer
 
 **Precondition:**  
-The customer has selected a movie, showtime, and an available seat.
+The customer is using the kiosk and available movies and showtimes are displayed.
 
 **Main Steps:**
 1. The customer selects a movie showtime.
@@ -18,4 +18,4 @@ The customer has selected a movie, showtime, and an available seat.
 8. The kiosk displays a purchase confirmation.
 
 **Postcondition:**  
-The ticket purchase is completed, the selected seat is reserved for the customer, and a confirmation is displayed.
+The ticket purchase is completed, the selected seat is marked as sold, and a confirmation is displayed to the customer.
