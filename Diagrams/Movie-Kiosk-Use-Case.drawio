@@ -1,0 +1,44 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Page-1" id="No1UMH076-62s50sXrXl">
+    <mxGraphModel dx="1415" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FQ4UYNspES6z85ecS5Sx-1" parent="1" style="swimlane;startSize=40;horizontal=1;fillColor=#e8f4f8;strokeColor=#6c8ebf;fontStyle=1;html=1;" value="Movie Theater Ticket Kiosk" vertex="1">
+          <mxGeometry height="470" width="410" x="380" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FQ4UYNspES6z85ecS5Sx-2" parent="FQ4UYNspES6z85ecS5Sx-1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="View Showtimes" vertex="1">
+          <mxGeometry height="60" width="140" x="170" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FQ4UYNspES6z85ecS5Sx-3" parent="FQ4UYNspES6z85ecS5Sx-1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Select Seat" vertex="1">
+          <mxGeometry height="60" width="140" x="160" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="FQ4UYNspES6z85ecS5Sx-4" parent="FQ4UYNspES6z85ecS5Sx-1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Purchase Ticket" vertex="1">
+          <mxGeometry height="60" width="140" x="140" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="FQ4UYNspES6z85ecS5Sx-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Customer" vertex="1">
+          <mxGeometry height="130" width="90" x="90" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="FQ4UYNspES6z85ecS5Sx-6" edge="1" parent="1" source="FQ4UYNspES6z85ecS5Sx-5" style="html=1;endArrow=none;startArrow=none;strokeColor=#333333;" target="FQ4UYNspES6z85ecS5Sx-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQ4UYNspES6z85ecS5Sx-7" edge="1" parent="1" source="FQ4UYNspES6z85ecS5Sx-5" style="html=1;endArrow=none;startArrow=none;strokeColor=#333333;" target="FQ4UYNspES6z85ecS5Sx-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQ4UYNspES6z85ecS5Sx-8" edge="1" parent="1" source="FQ4UYNspES6z85ecS5Sx-5" style="html=1;endArrow=none;startArrow=none;strokeColor=#333333;" target="FQ4UYNspES6z85ecS5Sx-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6ugf_NyDkrtuvlHg4HJv" name="Page-2">
+    <mxGraphModel dx="1203" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
